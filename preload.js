@@ -416,12 +416,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		if (options.largeimage !== '') {
 			activity.largeImageKey = options.largeimage
 			// If you change this and some asks about this, please still give me credit :)
-			activity.largeImageText = "Made with ThatOneCalculator's Discord RPC Maker (v2.1)!"
+			activity.largeImageText = "@Suvraneel"
 		}
 		if (options.smallimage !== '') {
 			activity.smallImageKey = options.smallimage
 			// Same applies with assets.large_text
-			activity.smallImageText = 'https://drpcm.t1c.dev/'
+			activity.smallImageText = 'https://suvraneel.vercel.app/'
 		}
 		if (assets !== {}) { activity.assets = assets }
 		if (options.description !== '') { activity.details = options.description.substring(0, 63) }
